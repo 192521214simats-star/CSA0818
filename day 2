@@ -1,0 +1,25 @@
+#question 1
+a=int(input('enter a '))
+b=int(input('enter b'))
+a,b=b,a
+print('a is',a,'\nb is',b)
+
+
+#question 2
+n=int(input('enter a number'))
+square=n**2
+cube=n**3
+print('square:',square,'\ncube is',cube)
+
+
+#question  3
+c=float(input('enter a celcius'))
+F=c*(5/9)+32
+print('the farenheit is',F )
+
+
+#question 4
+F=float(input('enter a farenheit'))
+c=(F-32)*95
+print('the celcius is',c )
+
