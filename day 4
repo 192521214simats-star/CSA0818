@@ -1,0 +1,40 @@
+#
+num = int(input("Enter a number: "))
+if num % 2 == 0:
+    print(f"{num} is even.")
+else:
+    print(f"{num} is odd.")
+#
+n1=int(input())
+n2=int(input())
+x=n1
+y=n2
+while(n2!=0):
+  t=n2
+  n2=n1%n2
+  n1=t
+gcd=n1
+print("GCD of {0} and {1}={2}".format(x,y,gcd))
+lcm=(x*y)/gcd
+print("LCM of {0} and {1}={2}".format(x,y,lcm))
+#
+dec=86
+print("the decimnal value of",dec,"is.")
+print(bin(dec),"in binary.")
+print(oct(dec),"in octal.")
+
+
+print(hex(dec),"in hexadecimal")
+
+#
+a=int(input())
+b=int(input())
+x,y=a,b
+while y!=0:
+  x,y=y,x%y
+  gcd=x
+  lcm=(a*b)/x
+print("GCD is",gcd)
+print("LCM is",lcm)
+
+
